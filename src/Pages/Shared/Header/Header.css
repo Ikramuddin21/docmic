@@ -1,0 +1,41 @@
+.header {
+}
+
+.header-nav {
+    max-width: 1010px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-area {
+    flex-grow: 2;
+}
+
+.logo-area img {
+    width: 81px;
+}
+
+.header-lists {
+    display: flex;
+    font-size: 16px;
+}
+
+.header-lists li {
+    margin: 0 15px;
+}
+
+.header-lists li a {
+    color: #575757;
+}
+
+.header .active {
+    color: #2D89FF;
+}
+
+.header-right {
+    margin-left: 87px;
+}

@@ -1,0 +1,29 @@
+{
+  "menu": ["Home", "About", "Departments", "Pages", "Blog", "Contacts"],
+  "servicesData": [
+    {
+      "id": 1,
+      "title": "Cardiology",
+      "description": "Seduahag perspiciati under omnised atused error",
+      "img": "images/services/service1.png"
+    },
+    {
+      "id": 2,
+      "title": "Monthly Check Up",
+      "description": "Seduahag perspiciati under omnised atused error",
+      "img": "images/services/service2.png"
+    },
+    {
+      "id": 3,
+      "title": "Dental Care",
+      "description": "Seduahag perspiciati under omnised atused error",
+      "img": "images/services/service3.png"
+    },
+    {
+      "id": 4,
+      "title": "Opthalmology",
+      "description": "Seduahag perspiciati under omnised atused error",
+      "img": "images/services/service4.png"
+    }
+  ]
+}
