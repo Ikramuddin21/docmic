@@ -11,6 +11,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-wrapper">
+                {/* footer left */}
                 <div className="footer-left">
                     <img className="footer-logo" src={logo} alt="" />
                     <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has bee</p>
@@ -23,6 +24,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
+                {/* footer quick links */}
                 <div className="footer-quick-links">
                     <h4 className="shared-h4 highlight-2">Quick Links</h4>
                     <ul>
@@ -34,6 +36,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
+                {/* footer links */}
                 <div className="footer-links">
                 <h4 className="shared-h4 highlight-2">Links</h4>
                     <ul>
@@ -45,6 +48,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
+                {/* footer right */}
                 <div className="footer-right">
                     <h4 className="shared-h4 highlight-2">Opening Hours</h4>
                     <ul>

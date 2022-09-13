@@ -56,6 +56,7 @@
   font-size: 12px;
   line-height: 15px;
   letter-spacing: -0.005em;
+  color: #1E1E1E;
 }
 
 /* footer links */
@@ -67,6 +68,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: -0.005em;
+    color: #1E1E1E;
   }
 
 /* footer right */
@@ -74,7 +76,7 @@
     margin-top: 14px;
   }
   
-  .footer-right ul li a {
+  .footer-right ul li {
     font-size: 12px;
     line-height: 15px;
     letter-spacing: -0.005em;
