@@ -1,4 +1,9 @@
 /* hero left */
+.hero-container {
+  background: url("../../../images/hero-left-shape.png") no-repeat 0 327px, url("../../../images/hero-right-shape.png") no-repeat 75% 450px;
+  padding-bottom: 55px;
+}
+
 .hero-wrapper {
   max-width: 1010px;
   margin: 0 auto;
@@ -51,7 +56,7 @@
 }
 
 .hero-counter .counter span {
-    color: #575757;
+  color: #575757;
 }
 
 /* hero right */
@@ -108,11 +113,11 @@
 }
 
 .meet-doctors .doctor {
-    margin-left: -5px;
+  margin-left: -5px;
 }
 
 .plus-icon {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 .rectangle img {

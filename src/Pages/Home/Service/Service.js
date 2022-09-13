@@ -9,7 +9,7 @@ const Service = ({ service }) => {
       <img src={require(`../../../${img}`)} alt="" />
       <div className="service-text-area">
         <h5>{title}</h5>
-        <p>{description}</p>
+        <p>{description}.</p>
         <button className="explore-button">Explore Now</button>
       </div>
     </div>

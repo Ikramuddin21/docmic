@@ -1,0 +1,34 @@
+.features-container {
+  max-width: 1010px;
+  margin: 0 auto;
+  margin-top: 56px;
+  padding: 0 10px;
+}
+
+.features-wrapper {
+  display: flex;
+}
+
+.features-left {
+  background: url("../../../images/features/group.png") no-repeat 28px -5px,
+    url("../../../images/features/ellipse.png") no-repeat 0 292px;
+  width: 40%;
+  position: relative;
+  top: 40px;
+}
+
+.features-right {
+  width: 60%;
+}
+
+.features-right h2 {
+  margin-top: 14px;
+  text-align: justify;
+}
+
+.features {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}

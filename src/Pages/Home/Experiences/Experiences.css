@@ -1,0 +1,40 @@
+.experiences-container {
+  max-width: 1010px;
+  margin: 0 auto;
+  margin-top: 56px;
+  padding: 0 10px;
+}
+
+.experiences-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.experiences-left {
+    width: 55%;
+}
+
+.experiences-left h2 {
+  margin-top: 14px;
+  text-align: justify;
+}
+
+.experiences-left p {
+  margin-top: 14px;
+  letter-spacing: -0.005em;
+  line-height: 150%;
+  text-align: justify;
+  color: #575757;
+}
+
+.experiences-right {
+    background: url("../../../images/experiences/group-10.png") no-repeat, url("../../../images/experiences/first-aid.png") no-repeat 23px 29px, url("../../../images/experiences/plastrer.png") no-repeat 86px 199px, url("../../../images/experiences/blood-pressure.png") no-repeat 257px 10px;
+    width: 45%;
+    position: relative;
+    left: 105px;
+}
+
+.experiences-right img {
+    margin-top: 10px;
+}

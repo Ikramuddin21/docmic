@@ -1,0 +1,97 @@
+.footer {
+  background: #e9eef7;
+  padding: 42px 15px 32px;
+  margin-top: 89px;
+}
+
+.footer-wrapper {
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* footer left */
+.footer-left {
+  width: 25%;
+}
+
+.footer-logo {
+  width: 81px;
+}
+
+.footer-left p {
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.005em;
+  color: #575757;
+  margin-top: 14px;
+}
+
+.footer-left ul {
+  display: flex;
+  margin-top: 27px;
+}
+
+.footer-left ul li {
+  margin-right: 10px;
+}
+
+.footer-left ul li a img {
+  padding: 5px;
+  background: #e8eef6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08),
+    inset 0px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 200px;
+}
+
+/* footer quick links */
+.footer-quick-links ul li {
+  margin-top: 14px;
+}
+
+.footer-quick-links ul li a {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.005em;
+}
+
+/* footer links */
+.footer-links ul li {
+    margin-top: 14px;
+  }
+  
+  .footer-links ul li a {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.005em;
+  }
+
+/* footer right */
+.footer-right ul li {
+    margin-top: 14px;
+  }
+  
+  .footer-right ul li a {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.005em;
+  }
+
+  .opening-day {
+    margin-right: 16px;
+  }
+
+.copy-right {
+  max-width: 1010px;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.005em;
+  color: #1e1e1e;
+}

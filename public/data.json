@@ -1,5 +1,4 @@
 {
-  "menu": ["Home", "About", "Departments", "Pages", "Blog", "Contacts"],
   "servicesData": [
     {
       "id": 1,
@@ -24,6 +23,61 @@
       "title": "Opthalmology",
       "description": "Seduahag perspiciati under omnised atused error",
       "img": "images/services/service4.png"
+    }
+  ],
+
+  "featuresData": [
+    {
+      "id": 1,
+      "title": "24 Hours Doctor Support",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "img": "images/features/feature1.png"
+    },
+    {
+      "id": 2,
+      "title": "Exclusive Supports",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "img": "images/features/feature2.png"
+    },
+    {
+      "id": 3,
+      "title": "Friendly Environment",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "img": "images/features/feature3.png"
+    },
+    {
+      "id": 4,
+      "title": "24 Hours Nurse Support",
+      "description": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
+      "img": "images/features/feature4.png"
+    }
+  ],
+
+  "faqsData": [
+    {
+      "id": 1,
+      "question": "Get Your General Answer?",
+      "answer": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": 2,
+      "question": "Will I always see my own doctor?",
+      "answer": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": 3,
+      "question": "What is one Medical's care?",
+      "answer": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": 4,
+      "question": "What is evidence based medicine?",
+      "answer": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    },
+    {
+      "id": 5,
+      "question": "What is an academic medical center?",
+      "answer": "Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
     }
   ]
 }

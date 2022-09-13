@@ -21,25 +21,26 @@ li {
 }
 
 .highlight-1 {
-  color: #2D89FF;
+  color: #2d89ff;
 }
 
 .highlight-2 {
-  color: #642DFF;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
+  color: #642dff;
 }
 
 .text-center {
   text-align: center;
+}
+
+.shared-h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1e1e1e;
+}
+
+.shared-h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }

@@ -1,0 +1,74 @@
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials-wrapper {
+  max-width: 1010px;
+  margin: 0 auto;
+  margin-top: 56px;
+  padding: 0 10px;
+}
+
+.testimonials-wrapper h2 {
+  margin-top: 14px;
+}
+
+.testimonials {
+  margin-top: 56px;
+}
+
+.testimonial {
+  width: 664px;
+  height: 264px;
+  padding: 24px;
+  border-radius: 10px;
+  display: flex;
+  background: url("../../../images/testimonials/ornament-1.png") no-repeat,
+  url("../../../images/testimonials/ornament-2.png") no-repeat 539px 0,
+  url("../../../images/testimonials/ornament-3.png") no-repeat 6px 198px;
+  background-color: white;
+  filter: drop-shadow(0px 10px 20px rgba(215, 186, 252, 0.29));
+  position: relative;
+}
+
+.testimonial::before {
+    content: url("../../../images/testimonials/left-arrow.png");
+    position: absolute;
+    left: -85px;
+    top: 100px;
+}
+
+.testimonial::after {
+    content: url("../../../images/testimonials/right-arrow.png");
+    position: absolute;
+    left: 685px;
+    top: 100px;
+}
+
+.testimonial-left h5 {
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+}
+
+.testimonial-left h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.005em;
+  margin-top: 8px;
+}
+
+.testimonial-left p {
+  margin-top: 12px;
+  line-height: 150%;
+  text-align: justify;
+  letter-spacing: -0.005em;
+  color: #575757;
+}
+
+.testimonial-right {
+  /* width: 35%; */
+}

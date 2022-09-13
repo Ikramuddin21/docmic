@@ -1,7 +1,6 @@
 .services-wrapper {
   max-width: 1010px;
   margin: 0 auto;
-  margin-top: 55px;
   padding: 0 10px;
 }
 
@@ -12,11 +11,7 @@
 }
 
 .services-wrapper h2 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 39px;
   margin-top: 14px;
-  color: #1e1e1e;
 }
 
 .services {

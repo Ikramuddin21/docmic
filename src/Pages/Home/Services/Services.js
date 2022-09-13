@@ -18,7 +18,7 @@ const Services = () => {
     <section className="services-container">
       <div className="services-wrapper">
         <h4 className="highlight-2 text-center">Our Services</h4>
-        <h2 className="text-center">Services For Your Health</h2>
+        <h2 className="shared-h2 text-center">Services For Your Health</h2>
         <div className="services">
           {services.map((service) => (
             <Service key={service.id} service={service} />
