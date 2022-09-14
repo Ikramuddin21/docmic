@@ -38,7 +38,7 @@ const Footer = () => {
 
                 {/* footer links */}
                 <div className="footer-links">
-                <h4 className="shared-h4 highlight-2">Links</h4>
+                    <h4 className="shared-h4 highlight-2">Links</h4>
                     <ul>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Our Doctors</a></li>
@@ -52,11 +52,26 @@ const Footer = () => {
                 <div className="footer-right">
                     <h4 className="shared-h4 highlight-2">Opening Hours</h4>
                     <ul>
-                        <li><span className="opening-day highlight-1">Mon-Tue</span> <span>08:00 AM - 05:00 PM</span></li>
-                        <li><span className="opening-day highlight-1">Wed-Tue</span> <span>08:00 AM - 05:00 PM</span></li>
-                        <li><span className="opening-day highlight-1">Fri-Tue</span> <span>08:00 AM - 05:00 PM</span></li>
-                        <li><span className="opening-day highlight-1">Sunday</span> <span>Emergency Only</span></li>
-                        <li><span className="opening-day highlight-1">Personal</span> <span>Mon - 05:00 PM</span></li>
+                        <li>
+                            <span className="opening-day highlight-1">Mon-Tue</span>
+                            <span>08:00 AM - 05:00 PM</span>
+                        </li>
+                        <li>
+                            <span className="opening-day highlight-1">Wed-Tue</span>
+                            <span>08:00 AM - 05:00 PM</span>
+                        </li>
+                        <li>
+                            <span className="opening-day highlight-1">Fri-Tue</span>
+                            <span>08:00 AM - 05:00 PM</span>
+                        </li>
+                        <li>
+                            <span className="opening-day highlight-1">Sunday</span>
+                            <span>Emergency Only</span>
+                        </li>
+                        <li>
+                            <span className="opening-day highlight-1">Personal</span>
+                            <span>Mon - 05:00 PM</span>
+                        </li>
                     </ul>
                 </div>
             </div>

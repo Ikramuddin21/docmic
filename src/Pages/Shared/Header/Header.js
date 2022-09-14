@@ -1,39 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../images/logo.png";
+import menuIcon from "../../../images/menu-icon.svg";
+import closeIcon from "../../../images/close-icon.svg";
 import "./Header.css";
 
 const Header = () => {
+  const [responsive, setResponsive] = useState(false);
   return (
-    <header className="header">
+    <header className={ responsive ? "header" : ""}>
       <nav className="header-nav">
         <div className="logo-area">
           <Link to="/">
             <img src={logo} alt="Logo" />
           </Link>
         </div>
-        <ul className="header-lists">
+
+        {/* mobile menu start */}
+        <div className="mobile-menu">
+          {
+            !responsive ?
+              <img onClick={() => setResponsive(true)} src={menuIcon} alt="" /> :
+              <img className="close-icon" onClick={() => setResponsive(false)} src={closeIcon} alt="" />
+          }
+        </div>
+        {/* mobile menu end */}
+
+        <ul className={`header-lists ${responsive ? "mobile-show" : ""}`}>
           <li>
-            <Link  className="active" to="">Home</Link>
+            <Link className="active" onClick={() => setResponsive(false)} to="">Home</Link>
           </li>
           <li>
-            <Link to="">About</Link>
+            <Link onClick={() => setResponsive(false)} to="">About</Link>
           </li>
           <li>
-            <Link to="">Departments</Link>
+            <Link onClick={() => setResponsive(false)} to="">Departments</Link>
           </li>
           <li>
-            <Link to="">Pages</Link>
+            <Link onClick={() => setResponsive(false)} to="">Pages</Link>
           </li>
           <li>
-            <Link to="">Blog</Link>
+            <Link onClick={() => setResponsive(false)} to="">Blog</Link>
           </li>
           <li>
-            <Link to="">Contacts</Link>
+            <Link onClick={() => setResponsive(false)} to="">Contacts</Link>
           </li>
         </ul>
-        <div className="header-right">
-          <button className="shared-button">Free Consultation</button>
+
+        <div className={`header-right ${responsive ? "mobile-show" : ""}`}>
+          <button onClick={() => setResponsive(false)} className="shared-button">Free Consultation</button>
         </div>
       </nav>
     </header>

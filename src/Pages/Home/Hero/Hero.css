@@ -124,3 +124,58 @@
   display: block;
   margin-top: 6px;
 }
+
+/* media query */
+@media only screen and (max-width: 576px) {
+  .hero-container {
+    background: url("../../../images/hero-left-shape.png") no-repeat 0 78%, url("../../../images/hero-right-shape.png") no-repeat 100% 45%;
+    padding-bottom: 55px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 45px;
+  }
+
+  .hero-left p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-right {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../../images/hero-right-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 16%;
+    background-size: contain;
+  }
+
+  .regular-checkup-button {
+    left: 20px;
+    top: 0;
+  }
+
+  .meet-doctors {
+    top: 15px;
+    left: 20px;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .hero-left h1 {
+    font-size: 35px;
+  }
+}

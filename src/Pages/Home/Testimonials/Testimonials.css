@@ -19,31 +19,31 @@
 }
 
 .testimonial {
-  width: 664px;
+  max-width: 664px;
   height: 264px;
   padding: 24px;
   border-radius: 10px;
   display: flex;
   background: url("../../../images/testimonials/ornament-1.png") no-repeat,
-  url("../../../images/testimonials/ornament-2.png") no-repeat 539px 0,
-  url("../../../images/testimonials/ornament-3.png") no-repeat 6px 198px;
+    url("../../../images/testimonials/ornament-2.png") no-repeat 539px 0,
+    url("../../../images/testimonials/ornament-3.png") no-repeat 6px 198px;
   background-color: white;
   filter: drop-shadow(0px 10px 20px rgba(215, 186, 252, 0.29));
   position: relative;
 }
 
 .testimonial::before {
-    content: url("../../../images/testimonials/left-arrow.png");
-    position: absolute;
-    left: -85px;
-    top: 100px;
+  content: url("../../../images/testimonials/left-arrow.png");
+  position: absolute;
+  left: -85px;
+  top: 100px;
 }
 
 .testimonial::after {
-    content: url("../../../images/testimonials/right-arrow.png");
-    position: absolute;
-    left: 685px;
-    top: 100px;
+  content: url("../../../images/testimonials/right-arrow.png");
+  position: absolute;
+  left: 685px;
+  top: 100px;
 }
 
 .testimonial-left h5 {
@@ -69,6 +69,30 @@
   color: #575757;
 }
 
-.testimonial-right {
-  /* width: 35%; */
+/* media query */
+@media only screen and (max-width: 576px) {
+  .testimonials {
+    margin-top:35px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background: url("../../../images/testimonials/ornament-1.png") no-repeat,
+      url("../../../images/testimonials/ornament-2.png") no-repeat 100% 0,
+      url("../../../images/testimonials/ornament-3.png") no-repeat 0 100%;
+      background-color: white;
+  }
+
+  .testimonial::before {
+    left: 0;
+    top: 50%;
+  }
+
+  .testimonial::after {
+    left: auto;
+    right: 0;
+    top: 50%;
+  }
 }

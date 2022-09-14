@@ -10,9 +10,8 @@
   justify-content: space-between;
 }
 
-
 .experiences-left {
-    width: 55%;
+  width: 55%;
 }
 
 .experiences-left h2 {
@@ -29,12 +28,67 @@
 }
 
 .experiences-right {
-    background: url("../../../images/experiences/group-10.png") no-repeat, url("../../../images/experiences/first-aid.png") no-repeat 23px 29px, url("../../../images/experiences/plastrer.png") no-repeat 86px 199px, url("../../../images/experiences/blood-pressure.png") no-repeat 257px 10px;
-    width: 45%;
-    position: relative;
-    left: 105px;
+  background: url("../../../images/experiences/group-10.png") no-repeat,
+    url("../../../images/experiences/first-aid.png") no-repeat 23px 29px,
+    url("../../../images/experiences/plastrer.png") no-repeat 86px 199px,
+    url("../../../images/experiences/blood-pressure.png") no-repeat 257px 10px;
+  width: 45%;
+  position: relative;
+  left: 105px;
 }
 
 .experiences-right img {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+/* media query */
+@media only screen and (max-width: 576px) {
+  .experiences-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .experiences-left {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .experiences-left h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .experiences-right {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: unset;
+    left: unset;
+    background: url("../../../images/experiences/group-10.png") no-repeat center,
+      url("../../../images/experiences/first-aid.png") no-repeat 27% 10%,
+      url("../../../images/experiences/plastrer.png") no-repeat 34% 70%,
+      url("../../../images/experiences/blood-pressure.png") no-repeat 74% 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .experiences-right {
+    background: url("../../../images/experiences/group-10.png") no-repeat center,
+      url("../../../images/experiences/first-aid.png") no-repeat 20% 10%,
+      url("../../../images/experiences/plastrer.png") no-repeat 34% 70%,
+      url("../../../images/experiences/blood-pressure.png") no-repeat 80% 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .experiences-right {
+    background: url("../../../images/experiences/group-10.png") no-repeat center,
+      url("../../../images/experiences/first-aid.png") no-repeat 17% 10%,
+      url("../../../images/experiences/plastrer.png") no-repeat 32% 70%,
+      url("../../../images/experiences/blood-pressure.png") no-repeat 85% 0;
+    text-align: center;
+  }
 }

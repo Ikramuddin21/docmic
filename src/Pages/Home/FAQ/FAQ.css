@@ -2,7 +2,6 @@
   max-width: 1010px;
   margin: 0 auto;
   margin-top: 56px;
-  margin-bottom: 56px;
   padding: 0 10px;
 }
 
@@ -36,24 +35,24 @@
 }
 
 .faq-plus-icon {
-    position: absolute;
-    left: 80%;
+  position: absolute;
+  left: 300px;
 }
 
 .faq-right {
+  position: relative;
   background: url("../../../images/faqs/ellipse11.png") no-repeat 96px 19px,
     url("../../../images/faqs/ellipse10.png") no-repeat 0 275px,
     url("../../../images/faqs/defibrillator.png") no-repeat 18px 77px,
     url("../../../images/faqs/blood-pressure.png") no-repeat 261px 4px,
     url("../../../images/faqs/gloves.png") no-repeat 208px 177px;
-  position: relative;
 }
 
 .faq-right .experts {
   width: 211px;
   height: 58px;
   padding: 14px 10px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -73,4 +72,28 @@
   letter-spacing: -0.005em;
   text-align: justify;
   color: #222222;
+}
+
+/* media query */
+@media only screen and (max-width: 576px) {
+  .faq-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .faq h4 {
+    word-spacing: -1.2px;
+  }
+
+  .faq-plus-icon {
+    position: relative;
+    left: 15px;
+  }
+
+  .faq-right .experts {
+    position: relative;
+    left: 0;
+    top: 20px;
+    margin: 0 auto;
+  }
 }
