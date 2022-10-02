@@ -70,11 +70,7 @@
 }
 
 /* media query */
-@media only screen and (max-width: 576px) {
-  .testimonials {
-    margin-top:35px;
-  }
-
+@media only screen and (max-width: 850px) {
   .testimonial {
     flex-direction: column;
     align-items: center;
@@ -84,15 +80,22 @@
       url("../../../images/testimonials/ornament-3.png") no-repeat 0 100%;
       background-color: white;
   }
-
+  
   .testimonial::before {
     left: 0;
     top: 50%;
   }
-
+  
   .testimonial::after {
     left: auto;
     right: 0;
     top: 50%;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .testimonials {
+    margin-top:35px;
+  }
+
 }

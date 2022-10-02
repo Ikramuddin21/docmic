@@ -126,23 +126,40 @@
 }
 
 /* media query */
+@media only screen and (max-width: 1200px) {
+  .hero-wrapper {
+    flex-direction: column;
+  }
+
+  .hero-left {
+    width: 70%;
+  }
+  .hero-right {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .hero-left h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-left h1 {
+    font-size: 45px;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .hero-container {
     background: url("../../../images/hero-left-shape.png") no-repeat 0 78%, url("../../../images/hero-right-shape.png") no-repeat 100% 45%;
     padding-bottom: 55px;
   }
 
-  .hero-wrapper {
-    flex-direction: column;
-  }
-
   .hero-left {
     width: 100%;
     text-align: center;
-  }
-
-  .hero-left h1 {
-    font-size: 45px;
   }
 
   .hero-left p {

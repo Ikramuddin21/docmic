@@ -42,27 +42,39 @@
 }
 
 /* media query */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1200px) {
   .experiences-wrapper {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
+}
 
+@media only screen and (max-width: 800px) {
   .experiences-left {
-    width: 90%;
     text-align: center;
+    width: 90%;
     margin: 0 auto;
   }
-
+  
   .experiences-left h2 {
     text-align: center;
     font-size: 25px;
   }
-
+  
   .experiences-right {
     width: 100%;
-    margin: 0 auto;
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .experiences-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .experiences-right {
     position: unset;
     left: unset;
     background: url("../../../images/experiences/group-10.png") no-repeat center,
